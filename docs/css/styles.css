@@ -42,6 +42,14 @@ hr {
   height: 500px;
 }
 
+div.c {
+    position: absolute;
+    left: 150px;
+    width: 200px;
+    height: 120px;
+    border: 3px solid green;
+  }
+
 
 /* * Remove the gap between audio, canvas, iframes,
  * * images, videos and the bottom of their containers:
