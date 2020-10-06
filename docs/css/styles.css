@@ -39,7 +39,8 @@ hr {
     text-align: center;
     background: #eee;
     max-width: 20%;
-    padding-top: 100%;
+    padding-top: 25%;
+    padding-bottom: 25%;
   }
 
 /* * Remove the gap between audio, canvas, iframes,
