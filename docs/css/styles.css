@@ -34,11 +34,12 @@ hr {
 
 .column {
     float: left;
-    padding: 10px;
+    /* padding: 10px; */
     height: 100%;
-    padding-top: 150px;
+    /* padding-top: 150px; */
     text-align: center;
     background: #eee;
+    padding-left: 10%;
   }
 
 /* * Remove the gap between audio, canvas, iframes,
