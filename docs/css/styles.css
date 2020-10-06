@@ -137,15 +137,6 @@ a {
   clear: both;
 }
 
-.headerDivider {
-    border-left:1px solid #38546d; 
-    border-right:1px solid #16222c; 
-    height:80px;
-    position:absolute;
-    right:249px;
-    top:10px; 
-}
-
 /* ==========================================================================
  * * EXAMPLE Media Queries for Responsive Design.
  * * These examples override the primary ('mobile first') styles.
