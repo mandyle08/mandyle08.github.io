@@ -32,16 +32,6 @@ hr {
   padding: 0;
 }
 
-/* * A better looking default vetical rule */
-vr {
-  display: block;
-  border-left: 6px solid #1f2747;
-  height: 1px;
-  border: 0;
-  margin: 1em 0;
-  padding: 0;
-}
-
 /* * Remove the gap between audio, canvas, iframes,
  * * images, videos and the bottom of their containers:
  * * https://github.com/h5bp/html5-boilerplate/issues/440 */
@@ -145,6 +135,15 @@ a {
   content: " ";
   display: table;
   clear: both;
+}
+
+.headerDivider {
+    border-left:1px solid #38546d; 
+    border-right:1px solid #16222c; 
+    height:80px;
+    position:absolute;
+    right:249px;
+    top:10px; 
 }
 
 /* ==========================================================================
