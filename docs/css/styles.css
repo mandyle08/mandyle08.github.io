@@ -32,11 +32,10 @@ hr {
   padding: 0;
 }
 
+/* Left column for bio, details, and info */
 .column {
     float: left;
-    /* padding: 10px; */
-    height: 150%;
-    /* padding-top: 150px; */
+    /* height: 150%; */
     text-align: center;
     background: #eee;
     max-width: 20%;
