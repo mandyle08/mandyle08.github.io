@@ -32,24 +32,13 @@ hr {
   padding: 0;
 }
 
-.left {
-    left: 0;
-    background-color: dimgray;
-}
-
-.vl {
-  border-left: 2px solid black;
-  height: 500px;
-}
-
-div.c {
+div.a {
     position: absolute;
     left: 150px;
     width: 200px;
     height: 120px;
     border: 3px solid green;
   }
-
 
 /* * Remove the gap between audio, canvas, iframes,
  * * images, videos and the bottom of their containers:
@@ -73,7 +62,6 @@ textarea {
 /* ==========================================================================
  * * Author's custom styles
  * * ========================================================================== */
-
 h1 {
   font-size: 4em;
   color: #01688d;
@@ -155,12 +143,6 @@ a {
   content: " ";
   display: table;
   clear: both;
-}
-.vertical-line{
-        display: inline-block;
-        border-left: 1px solid #ccc;
-        margin: 0 10px;
-        height: 125px;
 }
 
 /* ==========================================================================
