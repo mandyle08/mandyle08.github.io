@@ -77,10 +77,10 @@ nav {
 }
 
 nav img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 80%;
-    top: 0;
-    left: 0;
-    height: 90%;
 }
 
 .logo {
