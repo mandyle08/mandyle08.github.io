@@ -34,7 +34,7 @@ hr {
 
 /* Left column for bio, details, and info */
 .column {
-    float: left;
+    display: left;
     height: 500%;
     text-align: center;
     background: #eee;
