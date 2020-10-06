@@ -32,7 +32,9 @@ hr {
   padding: 0;
 }
 
-.left-section {
+.column {
+    float: left;
+    padding: 10px;
     height: 100%;
     padding-top: 150px;
     text-align: center;
