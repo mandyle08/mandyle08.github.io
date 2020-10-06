@@ -32,6 +32,17 @@ hr {
   padding: 0;
 }
 
+.left {
+    left: 0;
+    background-color: dimgray;
+}
+
+.vl {
+  border-left: 2px solid black;
+  height: 500px;
+}
+
+
 /* * Remove the gap between audio, canvas, iframes,
  * * images, videos and the bottom of their containers:
  * * https://github.com/h5bp/html5-boilerplate/issues/440 */
@@ -73,11 +84,6 @@ a {
 }
 :not(nav) > a:hover {
   color: #01435a;
-}
-
-.vl {
-  border-left: 6px solid black;
-  height: 500px;
 }
 
 /* ==========================================================================
