@@ -32,8 +32,7 @@ hr {
   padding: 0;
 }
 
-div.a {
-    position: absolute;
+.left {
     left: 150px;
     width: 200px;
     height: 120px;
