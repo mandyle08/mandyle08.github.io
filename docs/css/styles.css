@@ -44,6 +44,22 @@ hr {
     top: 1%
   }
 
+/*container for info */
+
+.left-container {
+    width: 200px;
+    padding: 50px;
+    background-color: #eee;
+    height: 390px;
+    border: 1px solid black;
+    font-size: 16px;
+    text-align: center;
+    margin: 0; 
+    outline: 0;
+    float: left;
+    padding-top: 7.8em;
+}
+
 /* * Remove the gap between audio, canvas, iframes,
  * * images, videos and the bottom of their containers:
  * * https://github.com/h5bp/html5-boilerplate/issues/440 */
@@ -68,12 +84,20 @@ textarea {
  * * ========================================================================== */
 h1 {
   font-size: 4em;
-  color: #01688d;
+  color: black;
+  text-align: center;
 }
 
 h2, h3, h4 {
   color: #1f2747;
 }
+
+h5 {
+    font-size: 20px;
+    color: #01688d;
+    text-align: center;
+    align-items: center
+  }
 
 a {
   transition: color 0.1s ease;
