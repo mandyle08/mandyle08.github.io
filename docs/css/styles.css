@@ -34,13 +34,14 @@ hr {
 
 /* Left column for bio, details, and info */
 .column {
-    display: left;
+    float: left;
     height: 500%;
     text-align: center;
     background: #eee;
     max-width: 20%;
     padding-top: 10%;
     padding-bottom: 10%;
+    top: 1%
   }
 
 /* * Remove the gap between audio, canvas, iframes,
