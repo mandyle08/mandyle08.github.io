@@ -41,8 +41,9 @@ nav {
     left:0;
     width: 250px;
     height: 100%;
+    background-color: #1F2747;
     /* background: #D3D4D9; */
-    background: #5d4954;
+    /* background: #5d4954; */
     /* align-items: center; */
     display: flex;
     flex-direction: column;
@@ -81,10 +82,20 @@ nav img {
     font-weight: bolder;
 }
 
-.center {
-    margin-left: 250px;
-    width: 70%;
-    padding-left: 0px;
+/* Container holding the image and the text */
+.container {
+    position: absolute;
+    text-align: center;
+    padding-left: 250px;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-35%, -35%);
+    padding-left: 250px;
   }
 
 /* * Remove the gap between audio, canvas, iframes,
@@ -110,10 +121,9 @@ textarea {
  * * Author's custom styles
  * * ========================================================================== */
 h1 {
-  font-size: 4em;
+  font-size: 2em;
   color: black;
   text-align: center;
-  margin-left: 250px;
   font-family: 'Ramabhadra', sans-serif;
 }
 
@@ -121,8 +131,7 @@ h2 {
     font-size: 30px;
     color: black;
     text-align: center;
-    margin-left: 250px;
-    font-family: 'Arapey', serif;
+    font-family: 'Lusitana', serif;
 }  
 
 h3, h4 {
