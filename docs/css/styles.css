@@ -37,7 +37,7 @@ hr {
 .flex-container {
     display: flex;
     flex-direction: row;
-    /* max-width: 1600px; */
+    max-width: 1600px;
     margin: auto;
     height: 100%; 
     align-items: stretch;
@@ -49,7 +49,8 @@ hr {
 }
 
 .right-panel {
-    background-image: url("img/image0.gif");
+    /* background-image: url("img/image0.gif"); */
+    background-image: var(--background);
     flex: 83.4%;
     height: 100%;
     max-width: 100%;
@@ -62,7 +63,7 @@ hr {
 nav {
     display: flex;
     align-items: center;
-    background-color: #1F2747;
+    background-color: var(--nav-color);
     height: 100%;
     display: flex;
     flex-direction: column;
