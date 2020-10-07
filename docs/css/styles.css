@@ -148,19 +148,16 @@ h1 {
   font-size: 50px;
   color: white;
   text-align: center;
-  margin-top: 5%;
   /* font-family: 'Ramabhadra', sans-serif; */
 }
 
 h2 {
-    margin-top: 30%;
     font-size: 30px;
     color: white;
     text-align: left;
     /* font-family: 'Lusitana', serif; */
     padding-left: 80px;
     padding-right: 50px;
-    margin-bottom: 25%;
 }  
 
 h3, h4 {
