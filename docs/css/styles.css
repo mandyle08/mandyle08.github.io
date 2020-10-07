@@ -137,17 +137,22 @@ textarea {
  * * Author's custom styles
  * * ========================================================================== */
 h1 {
-  font-size: 2em;
-  color: black;
+  font-size: 50px;
+  color: white;
   text-align: center;
-  font-family: 'Ramabhadra', sans-serif;
+  padding-top: 5%;
+  /* font-family: 'Ramabhadra', sans-serif; */
 }
 
 h2 {
-    font-size: 40px;
+    padding-top: 0;
+    font-size: 30px;
     color: white;
-    text-align: center;
-    font-family: 'Lusitana', serif;
+    text-align: left;
+    /* font-family: 'Lusitana', serif; */
+    padding-left: 80px;
+    padding-right: 50px;
+    padding-bottom: 25%;
 }  
 
 h3, h4 {
