@@ -156,7 +156,10 @@ h2 {
 }  
 
 h3, h4 {
-  color: #1f2747;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  padding: 1.9%;
 }
 
 h5 {
