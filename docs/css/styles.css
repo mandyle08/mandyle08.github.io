@@ -175,6 +175,17 @@ h5 {
     color: white;
     text-align: left;
   }
+h6 {
+    font-size: 30px;
+    color: white;
+    text-align: left;
+    text-shadow: 2px 0 0 #000, 0 -2px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    /* font-family: 'Lusitana', serif; */
+    padding-left: 80px;
+    padding-right: 50px;
+    text-decoration: underline;
+    font-weight: bold;
+}
 
 a {
   transition: color 0.1s ease;
